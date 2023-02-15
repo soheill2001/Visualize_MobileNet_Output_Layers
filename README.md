@@ -1,1 +1,1 @@
-# Visualize MobilNet Output Layers
+# Visualize MobileNet Output Layers
