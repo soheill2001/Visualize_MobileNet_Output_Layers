@@ -69,4 +69,4 @@ Here is an example of the feature maps generated for the input image `bird.jpg`:
 Each subplot represents a feature map from a different layer of the MobileNet model. The subplots are arranged in a grid, with each row representing a different layer and each column representing a different feature map within that layer. The color of each pixel in the feature map corresponds to the strength of the activation of that feature in the input image.
 
 ## More Information
-You can find more information about this project [here.]()
+You can find more information about this project [here.](Report.pdf)
