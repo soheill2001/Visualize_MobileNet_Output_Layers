@@ -22,7 +22,7 @@ class Visualize:
         plt.imshow(fmap[0, :, :, ix-1], cmap='gray')
         ix += 1
     plt.suptitle(f'{self.show_layer}{self.layer_num} Visualization')
-    plt.show()
+    plt.savefig(f'Images/{self.show_layer}{self.layer_num}')
 
   def show_each_feature_map(self, feature_maps):
     for fmap in feature_maps:
@@ -40,7 +40,7 @@ if __name__ == '__main__':
   parser = argparse.ArgumentParser()
   parser.add_argument('--image_path', type=str)
   args = parser.parse_args()
-  
+
   simple_model = Simple_Model()
   feature_maps = simple_model.get_feature_map(args.image_path)
 
